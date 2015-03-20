@@ -56,7 +56,7 @@ En rouge : L'espace dédié aux 3 paragraphe des 3 OS. ils sont espacé de 10px 
 gauche de la page. Le premier est collé en haut a gauche du wrapper et tout les autres sont en fonction du wrapper
 ( absolu ). w900*h220
 
-En vert transparent : Les images des 3 paragraphe des 3 OS. Ils sont collés a gauche de l'espace dédié aux paragraphes
+En vert transparent : Les images des 3 paragraphe des 3 OS. Ils sont collé a gauche de l'espace dédié aux paragraphes
 ( donc ils héritent du 10 px du bord gauche de la page ). Ils sont espacés de 10px les unes des autres. w250*h220
 
 En doré : Le paragraphe, la zone d'écriture qui contiendra le blabla. ils sont a 250px de la zone dédié, et a 20 pixel
