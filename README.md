@@ -25,9 +25,9 @@ donc dépasser un petit peu de chaque côté.
 La bannière ne doit pas coller aux bords de la page en haut, mais le pied de page doit absolument coller aux bords de la
 page en bas ( 0 margin, 0 padding )
 Le texte dans les pages mac, windows et linux doivent s'afficher dans une zone au survol des bouton image correspondant,
-et doivent rester en place si l'utilisateur clique dessus ( sur la page windowsaccueil.html
-#windows8:hover divContenuW8 {visibility: visible;}, et sur une autre page windows
+et doivent rester en place si l'utilisateur clique dessus ( sur la page windowsaccueil.html #windows8:hover divContenuW8 {visibility: visible;}, et sur une autre page windows
 #windowsXP:hover divContenuW8 {visibity: hidden;) divContenuWXP {visibility: visible;}
+
 
 Concept Acceuil, même chose que pour le reste sauf :
 3 logo des 3 OS sur la banniere, pas de texte.
