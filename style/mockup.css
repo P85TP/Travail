@@ -1,0 +1,166 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+body{
+    width: 920px;
+}
+
+#wrapper {
+    position: relative;
+    width:920px;
+    height: 1000px;
+    background-color: cornflowerblue;
+}
+
+#wrapper2 {
+    position: absolute;
+    width: 900px;
+    height: 700px;
+    display: inline-block;
+    top: 260px;
+    left: 10px;
+    background-color: rgba(254, 195, 119, 1);
+}
+
+
+#Banner{
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 130px;
+    left:60px;
+    top: 90px;
+    background-color: darkblue;
+}
+
+#img1{
+    position: absolute;
+    display:block;
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    left: 87px;
+    background-color: rgba(84, 254, 44, 0.5);
+}
+
+#img2{
+    position: absolute;
+    display: inline;
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    left: 325px;
+    background-color: rgba(84, 254, 44, 0.5);
+}
+
+#img3{
+    position: absolute;
+    display: inline;
+    width: 150px;
+    height: 150px;
+    top: -75px;
+    left: 562px;
+    background-color: rgba(84, 254, 44, 0.5);
+}
+
+#navibarre{
+    position: absolute;
+    width:850px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 1);
+    top: 205px;
+    left: 35px;
+}
+
+#txtwin {
+    position: absolute;
+    display: block;
+    width: 900px;
+    height: 220px;
+    background-color: rgba(139, 0, 0, 0.5);
+}
+
+#imgwin{
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 220px;
+    background-color: rgba(84, 254, 44, 0.5);
+}
+
+#pwin{
+    position:absolute;
+    display: inline-block;
+    width:650px;
+    height: 180px;
+    background-color: gold;
+    top: 20px;
+    left:250px;
+}
+
+#txtmac {
+     position: absolute;
+     display: block;
+     width: 900px;
+     height: 220px;
+     top: 230px;
+    background-color: rgba(139, 0, 0, 0.5);
+ }
+
+#imgmac{
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 220px;
+    background-color: rgba(84, 254, 44, 0.5);
+}
+
+#pmac{
+    position:absolute;
+    display: inline-block;
+    width:650px;
+    height: 180px;
+    background-color: gold;
+    top: 20px;
+    left:250px;
+}
+
+#txtlinux {
+      position: absolute;
+      display: block;
+      width: 900px;
+      height: 220px;
+      top: 460px;
+     background-color: rgba(139, 0, 0, 0.5);
+}
+
+#imglinux{
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 220px;
+    background-color: rgba(84, 254, 44, 0.5);
+}
+
+#plinux{
+    position:absolute;
+    display: inline-block;
+    width:650px;
+    height: 180px;
+    background-color: gold;
+    top: 20px;
+    left:250px;
+}
+
+
+  #pdp {
+      position: absolute;
+      display: block;
+      width : 920px;
+      height : 60px;
+      bottom:-50px;
+      left: -10px;
+      background-color: rgba(0, 0, 0, 1);
+  }
