@@ -9,23 +9,13 @@ body{
     outline: solid black 1px;
     margin: 0 auto;
 }
-
+/*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
 #wrapper {
     position: absolute;
     width:920px;
     height: 260px;
     background-color: rgb(81, 160, 229)
 }
-
-#wrapper2 {
-    position: relative;
-    width: 920px;
-    height: 780px;
-    display: inline-block;
-    top: 250px;
-    background-color: rgb(81, 160, 229)
-}
-
 
 #Banner{
     position: relative;
@@ -68,9 +58,18 @@ body{
     position: absolute;
     width:850px;
     height: 45px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(64, 96, 148);
     top: 205px;
     left: 35px;
+}
+/*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
+#wrapper2 {
+    position: relative;
+    width: 920px;
+    height: 780px;
+    display: inline-block;
+    top: 250px;
+    background-color: rgb(81, 160, 229)
 }
 
 #txtwin {
@@ -174,7 +173,7 @@ body{
     background-color: rgb(64, 96, 149);
 }
 
-
+/*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2 */
 #pdp {
     position: absolute;
     background-color: #5e72c0;
@@ -212,3 +211,4 @@ ul.navibarre{
 .navibarre li:hover a{
     color: #5e72c0;
 }
+/*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2*/
