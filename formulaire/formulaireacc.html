@@ -11,26 +11,24 @@
 
 <body>
 
-<div id="wrapper" class="header">
-    <div id="Banner" class="header"><img alt="banniere" src="http://jorelamthor.neocities.org/TP/image/banniere.png"/></div>
-    <a href="mac/macacc.html"><img id="img2" alt="logo form" src="http://jorelamthor.neocities.org/TP/image/logoformulairehoverFULL.png"/></a>
-    <div id="navibarre" class="nav">
+<div class="header">
+    <img id="bann" alt="banniere" src="http://jorelamthor.neocities.org/TP/image/banniere.png"/>
+    <a href="mac/macacc.html">
+        <img id="img2" alt="logo mac" src="http://jorelamthor.neocities.org/TP/image/logoformulairehoverFULL.png"/></a>
+
+
+    <div class="nav">
         <ul class="clearfix">
-            <a href="windows/windowsacc.html">
-                <li class="b1">
-                    <span class="bb">Accueil</span></li></a>
-            <a href="mac/macacc.html">
-                <li class="c1">
-                    <span class="cc">Mac</span></li></a>
-            <a href="linux/linuxacc.html">
-                <li class="d1">
-                    <span class="dd">Linux</span></li></a>
-            <a href="formulaire/formulaireacc.html">
-                <li class="e1">
-                    <span class="cc">Formulaire</span></li></a>
-            <a href="contact/contactacc.html">
-                <li class="f1">
-                    <span class="dd">Contact</span></li></a>
+            <li class="bwin">
+                <a href="windows/windowsacc.html">Windows</a></li>
+            <li class="bmac">
+                <a href="mac/macacc.html">Mac</a></li>
+            <li class="blin">
+                <a href="linux/linuxacc.html">Linux</a></li>
+            <li class="bfor">
+                <a href="formulaire/formulaireacc.html">Formulaire</a></li>
+            <li class="bcon">
+                <a href="contact/contactacc.html">Contact</a></li>
         </ul>
     </div>
 </div>
@@ -38,7 +36,7 @@
 <div id="wrapper2" class="contenu">
     <div class="form">
         <form action="#">
-            <div>
+            <div id="formin">
                 <label for="formnom">Nom:</label>
                 <input id="formnom" type="text"/>
                 <label for="formprenom">Prénom:</label>
@@ -47,20 +45,18 @@
                 <label for="formman">Homme</label>
                 <input id="formwoman" name="gender" type="radio"/>
                 <label for="formwoman">Femme</label>
-                <label for="formadress">Adresse:</label>
-                <div id="formadress">
-                    <label for="formstreetnumber">No</label>
-                    <input id="formstreetnumber" name="adress" type="text"/>
-                    <label for="formstreetname">Rue</label>
-                    <input id="formstreetname" name="adress" type="text"/>
-                    <label for="formcity">Ville</label>
-                    <input id="formcity" name="adress" type="text"/>
-                    <label for="formzipcode">Code postal:</label>
-                    <input id="formzipcode" name="adress" type="text"/>
-                    <label for="formstate">États/Province</label>
-                    <select id="formstate" name="adress">
-                        <option value=""></option>
-                        <optgroup label="Canada">
+                <label for="formstreetnumber">No</label>
+                <input id="formstreetnumber" name="adress" type="text"/>
+                <label for="formstreetname">Rue</label>
+                <input id="formstreetname" name="adress" type="text"/>
+                <label for="formcity">Ville</label>
+                <input id="formcity" name="adress" type="text"/>
+                <label for="formzipcode">Code postal:</label>
+                <input id="formzipcode" name="adress" type="text"/>
+                <label for="formstate">États/Province</label>
+                <select id="formstate" name="adress">
+                    <option value=""></option>
+                    <optgroup label="Canada">
                             <option value="alberta">Alberta</option>
                             <option value="britishcolombia">Colombie-Britanique</option>
                             <option value="manitoba">Manitoba</option>
@@ -75,7 +71,7 @@
                             <option value="saskatchewan">Saskatchewan</option>
                             <option value="youkon">Youkon</option>
                         </optgroup>
-                        <optgroup label="États-Unis">
+                    <optgroup label="États-Unis">
                             <option value="Alabama">Alabama</option>
                             <option value="Alaska">Alaska</option>
                             <option value="Arizona">Arizona</option>
@@ -127,7 +123,7 @@
                             <option value="Wisconsin">Wisconsin</option>
                             <option value="Wyoming">Wyoming</option>
                         </optgroup>
-                    </select>
+                </select>
                 </div>
                 <label for="formmail">Courriel:</label>
                 <input id="formmail" type="text">
