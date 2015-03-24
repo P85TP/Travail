@@ -5,106 +5,124 @@
 
 body{
     width: 920px;
-    height: 1030px;
+    height: auto;
     outline: solid black 1px;
     margin: 0 auto;
 }
 /*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
 /*DÉBUT DE LA PARTIE CONCERNANT LA BANNIÈRE D'EN-TÊTE*/
-#wrapper {
-    position: absolute;
+.header {
+    position: relative;
     width:920px;
     height: 260px;
     background-color: rgb(81, 160, 229)
 }
 
-#Banner{
-    position: relative;
-    width: 800px;
-    left:60px;
+#bann {
+    position: absolute;
     top: 80px;
+    left: 60px;
 }
 
 #img1{
     position: absolute;
-    top: 0;
-    left: 132px;
+    left: 160px;
 }
 
 #img2{
     position: absolute;
-    top: 0;
-    left: 380px;
+    left: 385px;
 }
 
 #img3{
     position: absolute;
-    top: 0;
     left: 617px;
 }
-
 /*FIN DE LA PARTIE CONCERNANT LA BANNIÈRE D'EN-TÊTE*/
 /*DEBUT DE LA PARTIE CONCERNANT LA BARRE DE NAVIGATION*/
-#navibarre{
+.nav{
     position: absolute;
     top: 205px;
-    left: 35px;
+    left: 38px;
 }
 
-a:hover {
-    color:white;
+.nav > ul > li > a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 13px;
+    text-align: center;
+    height: 44px;
+    width: 169px;
+    color: white;
 }
 
-a:active {
-    color:darkgrey;
-}
-
-.a1, .b1, .c1, .d1, .e1, .f1  {
+li.bacc, li.bwin, li.bmac, li.blin, li.bfor, li.bcon  {
     display: inline-block;
     float: left;
-    position: relative;
-    background-color: rgb(64, 96, 148);
-}
-
-.a1:hover, .b1:hover, .c1:hover, .d1:hover, .e1:hover, .f1:hover {
-    background-color: white;
-}
-
-.aa, .bb, .cc, .dd, .ee, .ff {
-    display: inline-block;
     font-family: 'Arial', Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     color: white;
     text-decoration: none;
-    height: 32px;
+    background-color: rgb(64, 96, 148);
+    height: 44px;
     width: 169px;
-    padding-top: 13px;
 }
 
-.a1:hover{
-    content: url(http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG);
+/*Hover du bouton accueil*/
+.bacc:hover a{
+    top: 800px;
+}
+.bacc:hover {
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG");
     background-color: white;
 }
 
-.b1:hover{
-    content: url(http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG)
+/*Hover du bouton win*/
+.bwin:hover a{
+    top: 800px;
+}
+.bwin:hover {
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG");
+    background-color: white;
 }
 
-.c1:hover{
-    content: url(http://jorelamthor.neocities.org/TP/image/logomachover.png);
+/*Hover du bouton mac*/
+.bmac:hover a{
+    top: 800px;
+}
+.bmac:hover{
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logomachover.png");
+    background-color: white;
 }
 
-.d1:hover{
-    content: url(http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG);
+/*Hover du bouton linux*/
+
+.blin:hover a{
+    top: 800px;
+}
+.blin:hover{
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG");
+    background-color: white;
+}
+/*Hover du bouton formulaire*/
+.bfor:hover a{
+    top: 800px;
+}
+.bfor:hover{
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logoformulairehover.png");
+    background-color: white;
 }
 
-.e1:hover{
-    content: url(http://jorelamthor.neocities.org/TP/image/logoformulairehover.png);
+/*Hover du bouton contact*/
+.bcon:hover a{
+    top: 800px;
 }
-
-.f1:hover{
-    content: url(http://jorelamthor.neocities.org/TP/image/logocontacthover.png);
+.bcon:hover{
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logocontacthover.png");
+    background-color: white;
 }
 
 /*FIN DE LA PARTIE CONCERNANT LA BARRE DE NAVIGATION*/
@@ -112,24 +130,21 @@ a:active {
 /*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
 
 /*DÉBUT DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
-#wrapper2 {
+.contenu {
     position: relative;
-    width: 920px;
-    height: 780px;
     display: inline-block;
-    top: 250px;
     background-color: rgb(81, 160, 229)
 }
 
-#txtwin {
-    position: relative;
+.windows {
+    position: absolute;
     display: block;
     width: 900px;
     height: 220px;
     top: 20px;
 }
 
-#imgwin{
+.imgwindows{
     position: absolute;
     display: inline-block;
     width: 250px;
@@ -137,7 +152,7 @@ a:active {
     background-color: rgb(64, 96, 149);
 }
 
-#pwin{
+.pwin{
     position:absolute;
     display: inline-block;
     width:670px;
@@ -146,7 +161,7 @@ a:active {
     background-color: rgb(64, 96, 149);
 }
 
-#pwin > ul, #pmac > ul, #plinux > ul {
+.pwin > ul, .pmac > ul, .plinux > ul {
     margin-left: 10px;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -155,42 +170,42 @@ a:active {
     color:white;
 }
 
-#pwin > ul > li, #pmac > ul > li, #plinux > ul > li {
+.pwin > ul > li, .pmac > ul > li, .plinux > ul > li {
     font-size: 70%;
     margin-left: 20px;
     list-style:circle;
     color:white;
 }
 
-#pwin > p, #pmac > p, #plinux > p {
+.pwin > p, .pmac > p, .plinux > p {
     font-size: 100%;
     margin-left: 5px;
     color:white;
 }
 
-#pwin > a, #pmac > a, #plinux > a {
+.pwin > a, .pmac > a, .plinux > a {
     text-decoration: none;
     position: absolute;
     left: 385px;
     bottom: 10px;
 }
 
-#txtmac {
-    position: relative;
+.txtmac {
+    position: absolute;
     display: block;
     width: 900px;
     height: 220px;
     top: 30px;
 }
 
-#imgmac{
+.imgmac{
     position: absolute;
     display: inline-block;
     width: 250px;
     height: 220px;
 }
 
-#pmac{
+.pmac{
     position:absolute;
     display: inline-block;
     width:670px;
@@ -198,23 +213,22 @@ a:active {
     left:250px;
 }
 
-#txtlinux {
-    position: relative;
+.txtlinux {
+    position: absolute;
     display: block;
     width: 900px;
     height: 220px;
     top: 40px;
 }
 
-#imglinux{
+.imglinux{
     position: absolute;
     display: inline-block;
     width: 250px;
     height: 220px;
 }
 
-#plinux{
-    position:absolute;
+.plinux{
     display: inline-block;
     width:670px;
     height: 220px;
@@ -226,8 +240,8 @@ a:active {
 /*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2 */
 
 /*DÉBUT DE LA PARTIE CONCERNANT LE PIED DE PAGE */
-#pdp {
-    position: absolute;
+.piedpage {
+    position: relative;
     background-color: #5e72c0;
     width: 920px;
     bottom: 0;
