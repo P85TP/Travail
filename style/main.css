@@ -10,6 +10,7 @@ body{
     margin: 0 auto;
 }
 /*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
+/*DÉBUT DE LA PARTIE CONCERNANT LA BANNIÈRE D'EN-TÊTE*/
 #wrapper {
     position: absolute;
     width:920px;
@@ -19,50 +20,98 @@ body{
 
 #Banner{
     position: relative;
-    display: block;
     width: 800px;
-    height: 130px;
     left:60px;
     top: 80px;
-    background-color: rgb(67, 81, 138);
 }
 
 #img1{
     position: absolute;
-    display:block;
-    width: 150px;
-    height: 150px;
     top: 0;
     left: 132px;
 }
 
 #img2{
     position: absolute;
-    display: inline;
-    width: 150px;
-    height: 150px;
     top: 0;
     left: 380px;
 }
 
 #img3{
     position: absolute;
-    display: inline;
-    width: 150px;
-    height: 150px;
     top: 0;
     left: 617px;
 }
 
+/*FIN DE LA PARTIE CONCERNANT LA BANNIÈRE D'EN-TÊTE*/
+/*DEBUT DE LA PARTIE CONCERNANT LA BARRE DE NAVIGATION*/
 #navibarre{
     position: absolute;
-    width:850px;
-    height: 45px;
-    background-color: rgb(64, 96, 148);
     top: 205px;
     left: 35px;
 }
+
+a:hover {
+    color:white;
+}
+
+a:active {
+    color:darkgrey;
+}
+
+.a1, .b1, .c1, .d1, .e1, .f1  {
+    display: inline-block;
+    float: left;
+    position: relative;
+    background-color: rgb(64, 96, 148);
+}
+
+.a1:hover, .b1:hover, .c1:hover, .d1:hover, .e1:hover, .f1:hover {
+    background-color: white;
+}
+
+.aa, .bb, .cc, .dd, .ee, .ff {
+    display: inline-block;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    height: 32px;
+    width: 169px;
+    padding-top: 13px;
+}
+
+.a1:hover{
+    content: url(http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG);
+    background-color: white;
+}
+
+.b1:hover{
+    content: url(http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG)
+}
+
+.c1:hover{
+    content: url(http://jorelamthor.neocities.org/TP/image/logomachover.png);
+}
+
+.d1:hover{
+    content: url(http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG);
+}
+
+.e1:hover{
+    content: url(http://jorelamthor.neocities.org/TP/image/logoformulairehover.png);
+}
+
+.f1:hover{
+    content: url(http://jorelamthor.neocities.org/TP/image/logocontacthover.png);
+}
+
+/*FIN DE LA PARTIE CONCERNANT LA BARRE DE NAVIGATION*/
+
 /*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
+
+/*DÉBUT DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
 #wrapper2 {
     position: relative;
     width: 920px;
@@ -172,8 +221,11 @@ body{
     left:250px;
     background-color: rgb(64, 96, 149);
 }
+/*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
 
 /*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2 */
+
+/*DÉBUT DE LA PARTIE CONCERNANT LE PIED DE PAGE */
 #pdp {
     position: absolute;
     background-color: #5e72c0;
@@ -211,4 +263,6 @@ ul.navibarre{
 .navibarre li:hover a{
     color: #5e72c0;
 }
+/*FIN DE LA PARTIE CONCERNANT LE PIED DE PAGE */
+
 /*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2*/
