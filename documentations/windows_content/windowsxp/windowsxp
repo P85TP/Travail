@@ -1,0 +1,20 @@
+Source: http://fr.wikipedia.org/wiki/Windows_XP
+
+Windows XP est une famille de systèmes d'exploitation multitâches, développée et commercialisée par Microsoft, permettant l'usage d'un ordinateur tel qu'un ordinateur fixe, un portable ou encore un Media Center. Les lettres « XP » proviennent d'experience2.
+
+Windows XP est officiellement le successeur de Windows Me et de Windows 2000. Depuis plusieurs années, Microsoft souhaitait fédérer ses familles de systèmes d'exploitation (grand public et professionnel) en une seule famille, dans le but de réduire les coûts de développement et de maintenance. Windows 2000 devait remplir ce rôle, mais la complexité de son interface d'administration explique son rejet par le grand public. En 1999, le projet Windows Neptune, qui devait fournir la version « familiale » de Windows 2000 est abandonné. Il est remplacé par le projet Whistler, reprenant de nombreuses idées des projets Neptune et Odyssey, qui donne naissance à Windows XP et à ses deux versions : grand public et professionnelle. Les deux versions utilisent le noyau et l'architecture de NT (dite version 5.1). La version grand public est ainsi la même que la version professionnelle, mais elle est allégée de toutes les fonctions estimées inutiles pour un usage domestique.
+
+Windows XP est sorti le 25 octobre 2001 et selon une estimation d'un institut de statistiques américaines, il a été vendu à près de 400 millions de copies en janvier 20063. Il a été successivement remplacé par Windows Vista le 30 janvier 2007 puis par Windows 7 le 22 octobre 2009. La commercialisation de Windows XP fut arrêtée le 30 juin 2008, sauf pour les mini-portables et les grandes entreprises. Le 8 avril 2014, Microsoft cesse de supporter Windows XP ; ce qui signifie, en particulier, l'arrêt de la publication de correctifs de sécurité, mais la version Embedded (SP3) sera encore supportée jusqu'au 12 janvier 20164.
+
+L'édition la plus courante de Windows XP est la version Familiale qui est conçue pour les utilisateurs domestiques tandis que la version Professionnelle, qui comprend entre autres des fonctionnalités réseau et d'administration supplémentaires, est destinée aux entreprises utilisant des réseaux et des serveurs. Il est à noter que cette dernière coûte plus cher que l'édition Familiale. Windows XP Media Center a des fonctionnalités multimédia complémentaires pour permettre par exemple de voir et d'enregistrer la télévision, regarder plus confortablement des DVD. Windows XP pour Tablet PC est une version spécialement conçue pour les Tablet PC. Deux versions distinctes de Windows XP en 64 bits sont sorties, une pour les processeurs Itanium et une pour les processeurs x86-64.
+
+Le support de Windows XP a pris fin le 8 avril 2014, Microsoft n'offrant dès lors plus aucune nouvelle mise à jour du système d'exploitation, ni aucun correctif de sécurité pour cette version de Windows
+
+
+----Requirements----
+
+System requirements for Windows XP are as follows:
+
+---tableau specs---
+
+ <insert here>

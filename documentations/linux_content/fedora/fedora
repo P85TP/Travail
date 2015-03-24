@@ -1,0 +1,11 @@
+Source: http://fr.wikipedia.org/wiki/Fedora_(Linux)
+
+Fedora, anciennement Fedora Core, est une distribution GNU/Linux bâtie sur le système RPM, développée par le Projet Fedora et soutenue par la société Red Hat. Cette distribution se veut être un système d'exploitation complet et généraliste, composé uniquement de logiciels libres. Fedora dérive donc de la distribution Red Hat Linux, et est destinée à la remplacer pour les utilisateurs finaux (utilisation non commerciale). Le maintien de Fedora est en grande partie redevable à sa communauté d'utilisateurs. Bien que Red Hat emploie de nombreux développeurs pour Fedora, l'entreprise ne fournit pas d'assistance officielle pour les utilisateurs du grand public. Le rythme de sortie des nouvelles versions suit celui de GNOME, c'est-à-dire 6 mois.
+
+---Presentation----
+
+Le Projet Fedora a débuté à la fin de 2003, lorsque Red Hat Linux a abandonné la commercialisation de ses produits pour le public. Red Hat a ainsi dirigé les utilisateurs faisant un usage professionnel de Red Hat Linux vers Red Hat Enterprise Linux (RHEL), tandis que les utilisateurs en faisant un usage domestique ont été redirigés vers Fedora. Depuis, RHEL est la seule distribution Linux pour laquelle Red Hat fournit une assistance officielle.
+
+Les différentes versions de RHEL étant inspirées de celles de Fedora, plusieurs critiques ont été émises dénonçant que les utilisateurs de Fedora se trouvaient en fait être des essayeurs de RHEL (voir Correspondances RHL/RHEL).
+
+Avec la première sortie de Fedora, Red Hat a lancé une tendance qui a ensuite été suivie par plusieurs vendeurs de distributions Linux : celle de créer une distribution communautaire dont une distribution commerciale pourrait s'inspirer, cette distribution servant de processus de développement ouvert menant finalement à la distribution commerciale.
