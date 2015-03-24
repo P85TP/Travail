@@ -5,11 +5,150 @@
 <head>
     <meta http-equiv="content-type" content="texte/html; charset=UTF-8"/>
     <meta name="author" content="Jorel Amthor/Francis Veilleux/Charles-Elie Bedard"/>
-    <link rel="stylesheet" type="text/css" href=".css">
+    <link rel="stylesheet" type="text/css" href="../style/main.css">
     <title></title>
 </head>
 
 <body>
+
+<div id="wrapper" class="header">
+    <div id="Banner" class="header"><img alt="banniere" src="http://jorelamthor.neocities.org/TP/image/banniere.png"/></div>
+    <a href="mac/macacc.html"><img id="img2" alt="logo form" src="http://jorelamthor.neocities.org/TP/image/logoformulairehoverFULL.png"/></a>
+    <div id="navibarre" class="nav">
+        <ul class="clearfix">
+            <a href="windows/windowsacc.html">
+                <li class="b1">
+                    <span class="bb">Accueil</span></li></a>
+            <a href="mac/macacc.html">
+                <li class="c1">
+                    <span class="cc">Mac</span></li></a>
+            <a href="linux/linuxacc.html">
+                <li class="d1">
+                    <span class="dd">Linux</span></li></a>
+            <a href="formulaire/formulaireacc.html">
+                <li class="e1">
+                    <span class="cc">Formulaire</span></li></a>
+            <a href="contact/contactacc.html">
+                <li class="f1">
+                    <span class="dd">Contact</span></li></a>
+        </ul>
+    </div>
+</div>
+
+<div id="wrapper2" class="contenu">
+    <div class="form">
+        <form action="#">
+            <div>
+                <label for="formnom">Nom:</label>
+                <input id="formnom" type="text"/>
+                <label for="formprenom">Prénom:</label>
+                <input id="formprenom" type="text"/>
+                <input id="formman" name="gender" type="radio"/>
+                <label for="formman">Homme</label>
+                <input id="formwoman" name="gender" type="radio"/>
+                <label for="formwoman">Femme</label>
+                <label for="formadress">Adresse:</label>
+                <div id="formadress">
+                    <label for="formstreetnumber">No</label>
+                    <input id="formstreetnumber" name="adress" type="text"/>
+                    <label for="formstreetname">Rue</label>
+                    <input id="formstreetname" name="adress" type="text"/>
+                    <label for="formcity">Ville</label>
+                    <input id="formcity" name="adress" type="text"/>
+                    <label for="formzipcode">Code postal:</label>
+                    <input id="formzipcode" name="adress" type="text"/>
+                    <label for="formstate">États/Province</label>
+                    <select id="formstate" name="adress">
+                        <option value=""></option>
+                        <optgroup label="Canada">
+                            <option value="alberta">Alberta</option>
+                            <option value="britishcolombia">Colombie-Britanique</option>
+                            <option value="manitoba">Manitoba</option>
+                            <option value="newbrunswick">Nouveau-Brunswick</option>
+                            <option value="newfoundlandandlabrador">Terre-Neuve-et-Labrador</option>
+                            <option value="northwestterritories">Territoires du Nord-Ouest</option>
+                            <option value="novascotia">Nouvelle-Écosse</option>
+                            <option value="nunavut">Nunavut</option>
+                            <option value="ontario">Ontario</option>
+                            <option value="princeedwardisland">Île-du-Prince-Édouard</option>
+                            <option value="quebec">Québec</option>
+                            <option value="saskatchewan">Saskatchewan</option>
+                            <option value="youkon">Youkon</option>
+                        </optgroup>
+                        <optgroup label="États-Unis">
+                            <option value="Alabama">Alabama</option>
+                            <option value="Alaska">Alaska</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Arkansas">Arkansas</option>
+                            <option value="California">California</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Connecticut">Connecticut</option>
+                            <option value="Delaware">Delaware</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Hawaii">Hawaii</option>
+                            <option value="Idaho">Idaho</option>
+                            <option value="Illinois">Illinois</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="Kansas">Kansas</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Louisiana">Louisiana</option>
+                            <option value="Maine">Maine</option>
+                            <option value="Maryland">Maryland</option>
+                            <option value="Massachusetts">Massachusetts</option>
+                            <option value="Michigan">Michigan</option>
+                            <option value="Minnesota">Minnesota</option>
+                            <option value="Mississippi">Mississippi</option>
+                            <option value="Missouri">Missouri</option>
+                            <option value="Montana">Montana</option>
+                            <option value="Nebraska">Nebraska</option>
+                            <option value="Nevada">Nevada</option>
+                            <option value="New Hampshire">New Hampshire</option>
+                            <option value="New Jersey">New Jersey</option>
+                            <option value="New Mexico">New Mexico</option>
+                            <option value="New York">New York</option>
+                            <option value="North Carolina">North Carolina</option>
+                            <option value="North Dakota">North Dakota</option>
+                            <option value="Ohio">Ohio</option>
+                            <option value="Oklahoma">Oklahoma</option>
+                            <option value="Oregon">Oregon</option>
+                            <option value="Pennsylvania">Pennsylvania</option>
+                            <option value="Rhode Island">Rhode Island</option>
+                            <option value="South Caroline">South Caroline</option>
+                            <option value="South Dakota">South Dakota</option>
+                            <option value="Tennessee">Tennessee</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Utah">Utah</option>
+                            <option value="Vermont">Vermont</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Washington">Washington </option>
+                            <option value="West Virginia">West Virginia</option>
+                            <option value="Wisconsin">Wisconsin</option>
+                            <option value="Wyoming">Wyoming</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <label for="formmail">Courriel:</label>
+                <input id="formmail" type="text">
+                <label for="formusername">Pseudo:</label>
+                <input id="formusername" type="text"/>
+                <label for="formpassword">Mot de passe:</label>
+                <input id="formpassword" type="password"/>
+            </div>
+        </form>
+    </div>
+    <!--DÉBUT DE LA PARTIE HTML NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2-->
+    <div id="pdp" class="piedpage">
+        <ul class="navibarre">
+            <li><a href="">Conditions d'utilisation</a></li>
+            <li><a href="">Plan du site</a></li>
+            <li><a href="">Communiquez avec nous</a></li>
+            <li><a href="">English</a></li>
+        </ul>
+    </div>
+    <!--FIN DE LA PARTIE HTML NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2-->
+</div>
 
 </body>
 
