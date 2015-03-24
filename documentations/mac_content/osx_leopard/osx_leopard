@@ -1,0 +1,30 @@
+Source: http://fr.wikipedia.org/wiki/Mac_OS_X_v10.5
+
+Mac OS X 10.5, également appelé par son nom de code Leopard, est la sixième version du système d'exploitation Mac OS X d'Apple. Il a officiellement été lancé le vendredi 26 octobre 2007, à 18 heures (CEST).
+
+Cette cinquième mise à jour majeure de Mac OS X est la première à être commercialisée en Universal binaries, pour être compatible tant avec les anciens Macintosh à processeur PowerPC (PPC G4, G5 à partir de 867 MHz) qu'avec les nouveaux à processeur Intel (CoreDuo, Core2Duo, Xeon), et requiert au minimum 512 Mo de RAM pour 9 Go d'espace disque.
+
+Les nouveautés du système d'exploitation
+
+Nouveau bureau, avec désormais :
+	Un Dock en trois dimensions avec des effets de réflexion,
+	qui peut contenir des piles de documents (les stacks en anglais),
+	Les dossiers sont maintenant tout bleu et non plus semi-transparents.
+	Une nouvelle barre de menu (semi-transparente, en fonction du fond d'écran) qui contient une zone de recherche dans le menu Aide, permettant de trouver rapidement une commande dans un menu, ou un article de support,
+	L'interface des fenêtres a été harmonisée : il n'y a plus qu'un seul thème officiel (celui apparu avec la version 7 d'iTunes), la texture de métal brossé n'est donc plus utilisée,
+	Enfin, l'interface est vectorielle ;
+
+nouveau Finder, qui revêt la même barre latérale qu'iTunes, peut naviguer dans les dossiers grâce à Cover Flow (une fonctionnalité également reprise d'iTunes), et permet d'avoir un aperçu des fichiers par leur icône (pochette d'album pour les musiques, premiers mots pour un texte, première page pour un PDF, etc.) ;
+
+QuickLook, une nouvelle fonctionnalité qui permet d'avoir un aperçu rapide d'un fichier sans avoir à ouvrir l'application qui y est associée. De nombreux types de fichiers sont supportés : images, musiques, fichiers textes, fichiers PDF, présentations, vidéos, documents Microsoft Office, etc. ;
+
+Time Machine, un nouvel utilitaire qui sauvegarde automatiquement, de façon continue et transparente, tous les fichiers d'un utilisateur (sur un disque dur externe ou un serveur) et permet leur restauration à la carte, dans toute application compatible ;
+
+Spaces, une nouvelle fonctionnalité qui apporte à Mac OS X le support des « bureaux multiples » ;
+
+Spotlight, l'outil de recherche rapide, pourra désormais effectuer des recherches grâce à des opérateurs booléens, et ce sur tous les Macs du réseau local. Il sera également à même de rechercher le contenu du dictionnaire et d'effectuer des calculs sans avoir à ouvrir la Calculette ;
+intégration de Core Animation, un nouveau système de développement d'animations, utilisable par les développeurs pour améliorer l'interactivité dans leurs applications, ou pour la création d'économiseurs d'écran, par exemple ;
+amélioration de « l'accès universel » du système aux personnes handicapées, avec notamment un nouveau synthétiseur vocal plus réaliste, la révision du système de navigation dans les différents éléments du système et le support du braille et du sous-titrage avancé dans QuickTime ;
+système conçu entièrement en 64 bits, permettant une exécution native des applications de ce type, tout en restant compatible avec les applications 32 bits, et ce, sans émulation ;
+amélioration des fonctions de contrôle parental (contrôle à distance, définition de plages horaires de « couvre-feu », logs complets, etc.).
+icônes en 512×512 pixels.

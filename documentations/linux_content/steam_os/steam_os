@@ -1,0 +1,22 @@
+Source:
+
+SteamOS est un système d'exploitation basé sur le noyau Linux et la distribution Debian (stable) et développé par la société Valve Corporation à l'origine de la plateforme de jeu vidéo Steam. Il a été annoncé pour la première fois à la conférence LinuxCon 20131.
+
+À la LinuxCon 2013 à Édimbourg, Linus Torvalds a déclaré2 « J’aime les annonces SteamOS » et « Je pense que c’est une chance qui pourrait vraiment aider Linux sur les ordinateurs de bureau. »
+
+Dans le cadre de ce projet, Valve a rejoint le 4 décembre 2013 la Linux Foundation
+
+
+Caractéristiques[modifier | modifier le code]
+SteamOS est conçu principalement pour jouer à des jeux-vidéo. Les utilisateurs auront la possibilité de streamer des jeux depuis leur ordinateur fonctionnant sous Mac ou Windows vers ceux tournant sur SteamOS, ils partageront, en plus, les mêmes règles de partage et de filtrage familiaux que le logiciel Steam. Valve déclare avoir atteint « une hausse significative des performances attendues dans le rendu graphique » grâce à SteamOS. Le système d'exploitation est open source, permettant à tout le monde de modifier ou d'adapter le code source.
+
+Puisque le but principal de SteamOS est de faire tourner des jeux-vidéo, il ne possède pas beaucoup de fonctionnalités, mis à part la navigation sur internet et l'exécution de jeux ; il n'y a pas de logiciel de gestion de fichiers ou d'affichage d'images installé par défaut. Les utilisateurs peuvent, quand même, avoir accès à l'environnement de bureau GNOME et installer des logiciels. Bien que la version bêta de SteamOS ne supporte pas encore de service de streaming, Valve est en négociation avec des compagnies comme Spotify ou Netflix pour adapter leur service sur SteamOS. Le système supporte les principaux processeurs graphiques pour PC venant d'Intel, Nvidia ou encore AMD.
+
+Valve a aussi annoncé qu'ils intégreront des fonctionnalités comme la lecture de film, de musique, ou l’intégration de la télévision avant la sortie officielle du SteamOS.
+
+Les spécifications provisoires du SteamOS sont4 :
+
+Un processeur Intel ou AMD supportant le 64 bits.
+4 Go ou plus de mémoire principale.
+Une carte graphique AMD, Nvidia ou Intel.
+Un disque dur de minimum 250 Go.

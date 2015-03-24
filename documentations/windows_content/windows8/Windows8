@@ -1,0 +1,30 @@
+Source: http://fr.wikipedia.org/wiki/Windows_8#Hardware_requirements
+
+Windows 8 est la version du système d'exploitation Windows qui est commercialisée depuis le 26 octobre 20122.
+
+Windows 8 a été dévoilé, avec l'utilisation de l'interface tactile, le 1er juin 20113, mais la version RTM de Windows 8 à destination des constructeurs OEM n'est disponible que depuis le 15 août 2012. Windows 8 a été présenté en grande pompe, à l'instar des anciennes versions (7, Vista ou XP), le 25 octobre 2012, avant la sortie grand public le lendemain pour les différentes plates-formes (tablettes, PC et smartphonesN 1).
+
+La version Windows 8.1 est une mise à jour gratuite de Windows 8 qui est disponible depuis le 17 octobre 2013.
+
+
+----Interface windows----
+
+Windows 8 utilise une toute nouvelle interface graphique (longtemps appelée Metro) nommée Modern UI. Cet environnement s'articule sur un tout nouvel écran de démarrage composé de tuiles dynamiques, similaires à celles qui se trouvent sur le système d'exploitation Windows Phone. Chaque tuile représente une application, et peut présenter des informations pratiques sans qu'on entre dans l'application. Par exemple l'application Messages donne le nombre de messages non lus alors que l'application Météo indique la température selon la localisation de l'utilisateur. Ces applications se lancent en plein écran, et sont capables de transmettre des informations entre elles10. Les applications dans la nouvelle interface sont développées avec la nouvelle plate-forme Windows Runtime, en utilisant des langages de programmation variés tels que le C++, Visual Basic, C# et HTML combiné avec du JavaScript.
+
+Le traditionnel environnement de bureau est accessible depuis une tuile. Le bouton de démarrage de la barre des tâches a été déplacé dans la charm bar, accessible en plaquant son curseur / doigt en bas à gauche de son écran. Ceci ouvre l'écran de démarrage, point névralgique de Windows 8, et non plus le menu démarrer traditionnel11.
+
+Les applications développées pour ce nouvel environnement étaient précédemment référencées en tant qu'applications de style Metro durant le développement, elles permettent à l'utilisateur de rester dans le même environnement que le bureau principal grâce à un design présent dans tout le système. Cependant, en raison de problèmes éventuels avec la société allemande Metro AG, Microsoft a demandé aux développeurs Windows de ne plus employer ce terme. Un porte-parole de Microsoft a démenti l'information en disant simplement que le terme « Metro » pour décrire le style des applications était un nom de code qui serait progressivement éliminé pour la sortie officielle12. Windows 8 aura des mises à jour annuelles. La première mise à jour en date de Windows 8, dont le nom de code était Windows Blue, s'appelle Windows 8.1.
+
+
+
+
+----Requirements----
+
+Ressources nécessaires
+
+Les ressources nécessaires pour installer Windows 8 sont légèrement plus élevées que celles pour Windows 7. Windows 8 requiert un processeur de 1 GHz avec prise en charge de PAE, NX et SSE243. Pour pouvoir exécuter le Store, il faut avoir une résolution de 1024 × 768 pixels ou davantage43. Pour pouvoir « ancrer » les applications sur la droite ou la gauche de l'écran, il faut une résolution d'au moins 1366 × 768 pixels.
+
+
+---tableau specs---
+
+ <insert here>
