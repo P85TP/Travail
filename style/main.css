@@ -65,12 +65,16 @@ body {
 .nav{
     position: absolute;
     top: 205px;
-    left: 18px;
+    left: 50px;
+}
+
+.nav > ul  {
+   padding: 0px;
 }
 
 .nav > ul > li  {
     list-style: none;
-    float: left;
+    display: inline-block;
     font-family: 'Arial', Helvetica, sans-serif;
     font-weight: bold;
     background-color: rgb(64, 96, 148);
@@ -97,7 +101,7 @@ body {
 
 /*Hover du bouton windos*/
 .bwin:hover a{
-    top: 800px;
+    visibility: hidden;
 }
 .bwin:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG");
@@ -106,7 +110,7 @@ body {
 
 /*Hover du bouton mac*/
 .bmac:hover a{
-    top: 800px;
+    visibility: hidden;
 }
 .bmac:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logomachover.png");
@@ -116,7 +120,7 @@ body {
 /*Hover du bouton linux*/
 
 .blin:hover a{
-    top: 800px;
+    visibility: hidden;
 }
 .blin:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG");
@@ -124,7 +128,7 @@ body {
 }
 /*Hover du bouton formulaire*/
 .bfor:hover a{
-    top: 800px;
+    visibility: hidden;;
 }
 .bfor:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoformulairehover.png");
@@ -133,7 +137,7 @@ body {
 
 /*Hover du bouton contact*/
 .bcon:hover a{
-    top: 800px;
+    visibility: hidden;
 }
 .bcon:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logocontacthover.png");
@@ -154,8 +158,8 @@ body {
 /*Wrapper des partie windows, mac et linux */
 .windows, .mac, .linux {
     display: inline-block;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin: 20px 5px 5px 10px;
+    background-color: #ECEEF2;
 
 }
 /*Image a gauche de windows, mac et linux */
@@ -163,13 +167,13 @@ body {
     display: block;
     padding-right: 10px;
     float: left;
-    background-color: #6D7C9D;
+;
 }
 
 /*Texte des parties windows, mac et linux*/
 .windows > p, .mac > p, .linux > p {
     margin-bottom: 10px;
-    color:white;
+    color:#423f37
 }
 
 /*Lien des parties windows, mac et linux*/
@@ -184,7 +188,7 @@ body {
     margin-bottom: 10px;
     margin-top: 5px;
     font-weight: bold;
-    color:white;
+    color:#423f37
     padding: 0;
 }
 
