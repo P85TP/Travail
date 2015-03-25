@@ -19,21 +19,15 @@ body {
     font-family: sans-serif;
 }
 
-.contentwrapindex {
-    width: 960px;
-    background-color: #6D7C9D;
-    margin: 0 auto;
-}
 
 /*DÉBUT DE LA PARTIE CONCERNANT L'EN-TÊTE*/
 
 /*Wrapper de l'en-tête*/
 .header {
     position: relative;
-    width:960px;
+    width:920px;
     height: 260px;
-    background-color: #6D7C9D;
-    margin-bottom: 10px;
+    background-color: rgb(81, 160, 229)
 }
 
 /*1)Banniere*/
@@ -65,7 +59,7 @@ body {
 .nav{
     position: absolute;
     top: 205px;
-    left: 18px;
+    left: 38px;
 }
 
 .nav > ul > li  {
@@ -147,23 +141,21 @@ body {
 /*Wrapper du contenu du site*/
 .contenu {
     position: relative;
-    background-color: #6D7C9D;
-    width: 960px;
+    background-color: rgb(81, 160, 229);
 }
 
 /*Wrapper des partie windows, mac et linux */
 .windows, .mac, .linux {
     display: inline-block;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
 
 }
 /*Image a gauche de windows, mac et linux */
 .imgwindows, .imgmac, .imglinux{
-    display: block;
-    padding-right: 10px;
     float: left;
-    background-color: #6D7C9D;
+    background-color: rgb(64, 96, 149);
+    margin-right: 10px;
 }
 
 /*Texte des parties windows, mac et linux*/
@@ -183,9 +175,9 @@ body {
 .windows > ul, .mac > ul, .linux > ul {
     margin-bottom: 10px;
     margin-top: 5px;
+    margin-left: 260px;
     font-weight: bold;
     color:white;
-    padding: 0;
 }
 
 /*Éléments de la liste des parties windows, mac et linux*/
@@ -193,7 +185,6 @@ body {
     margin-left: 20px;
     display: list-item;
     list-style: disc;
-    margin-left: 283px;
 }
 
 
@@ -247,6 +238,9 @@ body {
     list-style:none;
     padding: 0;
 }
+
+
+
 .articles > li {
     display:block;
 }
@@ -299,11 +293,8 @@ body {
 }
 
 /* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
-
-
-/*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
-/*DÉBUT DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
-form {
+/*DÉBUT DE LA PARTIE FORMULAIRE*/
+form{
     position: relative;
     height: 500px;
     padding-top: 20px;
@@ -356,10 +347,8 @@ form {
 }
 input, select{
     margin-bottom: 10px;
-}
 
-/*FIN DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
-
+/*FIN DE LA PARTIE FORMULAIRE*/
 /*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
 /*----------------------------------------------*/
 /*DÉBUT DE LA PARTIE CONCERNANT LE PIED DE PAGE */
@@ -367,13 +356,13 @@ input, select{
 
 /*Wrapper du pied de page*/
 .piedpage {
-    background-color: rgb(64, 96, 148);
-    width: 960px;
+    background-color: #5e72c0;
 }
 
 /*Liste du pied de page*/
 ul.pdpbarre{
     position: relative;
+    border-top: solid black 1px;
 }
 /*Éléments de la liste du pied de page*/
 .pdpbarre li{
