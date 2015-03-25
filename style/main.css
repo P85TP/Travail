@@ -337,11 +337,11 @@ form{
     display: inline;
     width: 400px;
     margin-left: 10px;
-    bottom: 128px;
+    bottom: 112px;
 }
 #formsubmit{
     position: absolute;
-    bottom: 85px;
+    bottom: 65px;
 }
 .formin > label{
     float: left;
