@@ -23,14 +23,15 @@
 
         <div class="nav">
             <ul class="clearfix">
-                <li class="bwin">
-                    <a href="page_windows.html">Windows</a></li><!--
+
+            <li class="bacc">
+                <a href="index.html">Accueil</a></li><!--
+         --><li class="bwin">
+                <a href="page_windows.html">Windows</a></li><!--
          --><li class="bmac">
                 <a href="page_mac.html">Mac</a></li><!--
          --><li class="blin">
                 <a href="page_linux.html">Linux</a></li><!--
-         --><li class="bfor">
-                <a href="formulaire/formulaireacc.html">Formulaire</a></li><!--
          --><li class="bcon">
                 <a href="contact/contactacc.html">Contact</a></li>
             </ul>
@@ -40,8 +41,8 @@
 
 <div id="wrapper2" class="contenu">
     <div id="formtext">
-        <p id="p1">Inscrivez-vous!</p>
-        <p id="p2">En vous inscrivant,
+        <p class="formp1">Inscrivez-vous!</p>
+        <p class="formp2">En vous inscrivant,
             vous recevrez toutes les
             dernières nouvelles concernant
             Windows, Mac, et Linux.</p>
@@ -151,7 +152,22 @@
             </div>
         </form>
     </div>
-    <!--DÉBUT DE LA PARTIE HTML NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2 -->
+    <div class="formlogin">
+        <form action="#">
+            <p class="formp3">Connection</p>
+            <div class="login">
+                <label for="formconectusername">Pseudo:</label>
+                <input id="formconectusername" type="text"/>
+                <label for="formconectpassword">Mot de passe:</label>
+                <input id="formconectpassword" type="password"/>
+            <div id="formconectsubmit">
+                <input type="submit" value="Connection"/>
+                <input type="reset" value="Effacer"/>
+            </div>
+            </div>
+        </form>
+    </div>
+        <!--DÉBUT DE LA PARTIE HTML NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2 -->
     <div id="pdp" class="piedpage">
         <ul class="pdpbarre">
             <li><a href="">Conditions d'utilisation</a></li>
