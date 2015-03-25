@@ -1,74 +1,89 @@
-* {
+/* * {
     padding:0;
     margin:0;
-}
+} */
 
-body{
+a {
+    color:#406094;
+} 
+
+/* body{
     width: 920px;
     height: auto;
     outline: solid black 1px;
     margin: 0 auto;
-}
-/*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
-/*DÉBUT DE LA PARTIE CONCERNANT LA BANNIÈRE D'EN-TÊTE*/
-.header {
-    position: relative;
-    width:920px;
-    height: 260px;
-    background-color: rgb(81, 160, 229)
+} */
+
+body {
+    background-color: #EEE;
+    font-family: sans-serif;
 }
 
+.contentwrapindex {
+    width: 960px;
+    background-color: #6D7C9D;
+    margin: 0 auto;
+}
+
+/*DÉBUT DE LA PARTIE CONCERNANT L'EN-TÊTE*/
+
+/*Wrapper de l'en-tête*/
+.header {
+    position: relative;
+    width:960px;
+    height: 260px;
+    background-color: #6D7C9D;
+    margin-bottom: 10px;
+}
+
+/*1)Banniere*/
+
+/*Ruban de la bannière*/
 #bann {
     position: absolute;
     top: 80px;
     left: 60px;
 }
-
+/*Image Windows*/
 #img1{
     position: absolute;
     left: 160px;
 }
-
+/*Image Mac*/
 #img2{
     position: absolute;
     left: 385px;
 }
-
+/*Image Linux*/
 #img3{
     position: absolute;
     left: 617px;
 }
-/*FIN DE LA PARTIE CONCERNANT LA BANNIÈRE D'EN-TÊTE*/
-/*DEBUT DE LA PARTIE CONCERNANT LA BARRE DE NAVIGATION*/
+/*2)Barre de navigation*/
+
+/*Wrapper de la barre de navigation*/
 .nav{
     position: absolute;
     top: 205px;
-    left: 38px;
+    left: 18px;
+}
+
+.nav > ul > li  {
+    list-style: none;
+    float: left;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(64, 96, 148);
+    height: 44px;
 }
 
 .nav > ul > li > a {
     display: inline-block;
-    position: relative;
     text-decoration: none;
-    list-style: none;
     margin-top: 13px;
     text-align: center;
-    height: 44px;
     width: 169px;
     color: white;
-}
-
-li.bacc, li.bwin, li.bmac, li.blin, li.bfor, li.bcon  {
-    display: inline-block;
-    float: left;
-    font-family: 'Arial', Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    background-color: rgb(64, 96, 148);
-    height: 44px;
-    width: 169px;
 }
 
 /*Hover du bouton accueil*/
@@ -80,7 +95,7 @@ li.bacc, li.bwin, li.bmac, li.blin, li.bfor, li.bcon  {
     background-color: white;
 }
 
-/*Hover du bouton win*/
+/*Hover du bouton windos*/
 .bwin:hover a{
     top: 800px;
 }
@@ -126,118 +141,169 @@ li.bacc, li.bwin, li.bmac, li.blin, li.bfor, li.bcon  {
 }
 
 /*FIN DE LA PARTIE CONCERNANT LA BARRE DE NAVIGATION*/
-
-/*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 1/2*/
-
+/*-------------------------------------------------*/
 /*DÉBUT DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
+
+/*Wrapper du contenu du site*/
 .contenu {
     position: relative;
+    background-color: #6D7C9D;
+    width: 960px;
+}
+
+/*Wrapper des partie windows, mac et linux */
+.windows, .mac, .linux {
     display: inline-block;
-    background-color: rgb(81, 160, 229)
-}
-
-.windows {
-    position: absolute;
-    display: block;
-    width: 900px;
-    height: 220px;
-    top: 20px;
-}
-
-.imgwindows{
-    position: absolute;
-    display: inline-block;
-    width: 250px;
-    height: 220px;
-    background-color: rgb(64, 96, 149);
-}
-
-.pwin{
-    position:absolute;
-    display: inline-block;
-    width:670px;
-    height: 220px;
-    left:250px;
-    background-color: rgb(64, 96, 149);
-}
-
-.pwin > ul, .pmac > ul, .plinux > ul {
-    margin-left: 10px;
     margin-bottom: 10px;
-    margin-top: 5px;
-    font-size: 150%;
-    font-weight: bold;
+    margin-left: 10px;
+
+}
+/*Image a gauche de windows, mac et linux */
+.imgwindows, .imgmac, .imglinux{
+    display: block;
+    padding-right: 10px;
+    float: left;
+    background-color: #6D7C9D;
+}
+
+/*Texte des parties windows, mac et linux*/
+.windows > p, .mac > p, .linux > p {
+    margin-bottom: 10px;
     color:white;
 }
 
-.pwin > ul > li, .pmac > ul > li, .plinux > ul > li {
-    font-size: 70%;
-    margin-left: 20px;
-    list-style:circle;
-    color:white;
-}
-
-.pwin > p, .pmac > p, .plinux > p {
-    font-size: 100%;
-    margin-left: 5px;
-    color:white;
-}
-
-.pwin > a, .pmac > a, .plinux > a {
+/*Lien des parties windows, mac et linux*/
+.windows > a, .mac > a, .linux > a {
     text-decoration: none;
     position: absolute;
-    left: 385px;
-    bottom: 10px;
+    right: 10px;
 }
 
-.txtmac {
-    position: absolute;
+/*Listes des parties windows, mac et linux*/
+.windows > ul, .mac > ul, .linux > ul {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color:white;
+    padding: 0;
+}
+
+/*Éléments de la liste des parties windows, mac et linux*/
+.windows > ul > li, .mac > ul > li, .linux > ul > li {
+    margin-left: 20px;
+    display: list-item;
+    list-style: disc;
+    margin-left: 283px;
+}
+
+
+/* CSS des pages windows, linux et mac DEBUT CSS par Charles-Elie */
+
+.clear {
+    clear: both;
+}
+
+/* Sous navigation */
+
+.subnav ul {
     display: block;
-    width: 900px;
-    height: 220px;
-    top: 30px;
+    list-style: none;
+    width: 480px;
+    margin: 0 auto;
+    padding: 0; 
+    text-align: center;
 }
 
-.imgmac{
-    position: absolute;
+.subnav ul li {
     display: inline-block;
-    width: 250px;
-    height: 220px;
+    width: 120px;
+    height: 40px;
+    padding-top: 18px;
+    text-align: center;
+    background-color: rgb(64, 96, 148);
 }
 
-.pmac{
-    position:absolute;
-    display: inline-block;
-    width:670px;
-    height:220px;
-    left:250px;
+.subnav ul li:hover {
+    background-color: #37569E;
 }
 
-.txtlinux {
-    position: absolute;
+.subnav ul li a {
     display: block;
-    width: 900px;
-    height: 220px;
-    top: 40px;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-.imglinux{
-    position: absolute;
-    display: inline-block;
-    width: 250px;
-    height: 220px;
+/* Contenu */ 
+
+.contentwrap {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #6D7C9D;
 }
 
-.plinux{
-    display: inline-block;
-    width:670px;
-    height: 220px;
-    left:250px;
-    background-color: rgb(64, 96, 149);
+.articles {
+    list-style:none;
+    padding: 0;
 }
+.articles > li {
+    display:block;
+}
+
+.articles li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #ECEEF2;
+}
+
+.articles li img {
+    float: left;
+    padding-right: 20px;
+}
+
+.articles li h2 {
+    color: #423f37;
+}
+
+.articles li h3 {
+    color: #423f37;
+}
+
+.articles li p {
+    font-size: large;
+    color: #57534a;
+}
+
+.articles > li > ul {
+    list-style: disc;
+}
+
+.articles > li > ul > li {
+    font-size: large;
+    color: #57534a;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.articles li table {
+    background-color: #C6CCDA;
+    margin: 0 auto;
+    width: 500px;
+    border: solid 1px #6D7C9D;
+}
+
+.articles li table tr td {
+    text-align: center;
+}
+
+/* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
+
+
+/*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
 /*DÉBUT DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
-
-form{
+form {
     position: relative;
     height: 500px;
     padding-top: 20px;
@@ -295,47 +361,44 @@ input, select{
 /*FIN DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
 
 /*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
-
-/*DÉBUT DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2 */
-
+/*----------------------------------------------*/
 /*DÉBUT DE LA PARTIE CONCERNANT LE PIED DE PAGE */
+
+
+/*Wrapper du pied de page*/
 .piedpage {
-    position: relative;
-    background-color: #5e72c0;
-    width: 920px;
-    bottom: 0;
+    background-color: rgb(64, 96, 148);
+    width: 960px;
 }
 
-.navibarre a {
+/*Liste du pied de page*/
+ul.pdpbarre{
     position: relative;
-    color:white;
-    text-decoration: none;
-    top: 15px;
 }
-
-ul.navibarre{
-    position: relative;
-    border-top: solid black 1px;
-}
-
-.navibarre li{
+/*Éléments de la liste du pied de page*/
+.pdpbarre li{
     display:inline-block;
-    background-color: #5e72c0;
     font-family: 'Arial', Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
     width: 227px;
     height: 50px;
 }
-
-.navibarre li:hover{
+/*Survole des éléments de la liste du pied de page*/
+.pdpbarre li:hover{
     display: inline-block;
     background-color: white;
 }
-
-.navibarre li:hover a{
+/*Liens du pied de page*/
+.pdpbarre a {
+    position: relative;
+    color:white;
+    text-decoration: none;
+    top: 15px;
+}
+/*Survole des liens du pied de page*/
+.pdpbarre li:hover a{
     color: #5e72c0;
 }
-/*FIN DE LA PARTIE CONCERNANT LE PIED DE PAGE */
 
-/*FIN DU CODE NÉCÉSSAIRE A CHAQUE PAGE PARTIE 2/2*/
+/*FIN DE LA PARTIE CONCERNANT LE PIED DE PAGE */
