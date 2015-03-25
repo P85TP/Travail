@@ -296,57 +296,73 @@ body {
     background-color: #C6CCDA;
     margin: 0 auto;
     width: 500px;
-    border: solid 1px #6D7C9D;
+border: solid 1px #6D7C9D;
 }
 
 .articles li table tr td {
-    text-align: center;
+text-align: center;
 }
 
 /* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
 /*DÉBUT DE LA PARTIE FORMULAIRE*/
 form{
-    position: relative;
-    height: 500px;
-    padding-top: 20px;
-    padding-left: 30px;
-    margin-left: 38px;
-    margin-right: 37px;
-    margin-top: -11px;
-    background-color: #ECEEF2;
+position: relative;
+height: 500px;
+margin-left: 20px;
+margin-right: 20px;
+padding-top: 30px;
+padding-left: 45px;
+background-color: #ECEEF2;
+}
+#formtext > #p1{
+    font-size: xx-large;
+    color: black;
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    z-index: 1;
+}
+#formtext > #p2{
+    font-size: large;
+    color: #505050;
+    position: absolute;
+    top: 110px;
+    right: 150px;
+    width: 212px;
+    z-index: 1;
 }
 #formstreetnumber{
-    width: 30px;
+width: 30px;
 }
 #formzipcode{
-    width: 50px;
+width: 50px;
 }
 #labelformmail{
-    margin-top: 10px;
+margin-top: 10px;
 }
 #formpassword{
-    display: block;
+display: block;
 }
 #formconditions{
-    display: inline;
-    float: left;
-    margin-top: 10px;
+display: inline;
+float: left;
+margin-top: 10px;
 }
 #labelformconditions{
-    position: absolute;
-    display: inline;
-    width: 400px;
-    margin-left: 10px;
-    bottom: 112px;
+position: absolute;
+display: inline;
+width: 400px;
+margin-left: 10px;
+bottom: 112px;
 }
 #formsubmit{
-    position: absolute;
-    bottom: 65px;
+position: absolute;
+bottom: 65px;
 }
 .formin > label{
     float: left;
     clear: both;
-    width: 100px;
+    width: 115px;
 }
 .formin > input[type="radio"]{
     display: block;
@@ -358,6 +374,7 @@ form{
 }
 input, select {
     margin-bottom: 10px;
+    background-color: rgba(81, 160, 229, 0.50);
 }
 /*FIN DE LA PARTIE FORMULAIRE */
 /*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
