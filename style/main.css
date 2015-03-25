@@ -69,7 +69,7 @@ body {
 }
 
 .nav > ul  {
-   padding: 0px;
+   padding: 0;
 }
 
 .nav > ul > li  {
@@ -79,67 +79,52 @@ body {
     font-weight: bold;
     background-color: rgb(64, 96, 148);
     height: 44px;
-}
+    }
 
 .nav > ul > li > a {
     display: inline-block;
     text-decoration: none;
-    margin-top: 13px;
     text-align: center;
     width: 169px;
+    height: 44px;
     color: white;
+    line-height: 45px;
 }
 
 /*Hover du bouton accueil*/
 .bacc:hover a{
     color: transparent;
-}
-.bacc:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG");
-    background-color: white;
+    background-color: white
 }
-
 /*Hover du bouton windos*/
 .bwin:hover a{
     color: transparent;
-}
-.bwin:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG");
     background-color: white;
 }
-
 /*Hover du bouton mac*/
 .bmac:hover a{
     color: transparent;
-}
-.bmac:hover{
-    background-image: url("http://jorelamthor.neocities.org/TP/image/logomachover.png");
+    background-image: url("http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG");
     background-color: white;
 }
-
 /*Hover du bouton linux*/
 
 .blin:hover a{
     color: transparent;
-}
-.blin:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG");
     background-color: white;
 }
 /*Hover du bouton formulaire*/
 .bfor:hover a{
     color: transparent;
-}
-.bfor:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoformulairehover.png");
     background-color: white;
-}
-
+    }
 /*Hover du bouton contact*/
 .bcon:hover a{
     color: transparent;
-}
-.bcon:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logocontacthover.png");
     background-color: white;
 }
@@ -176,12 +161,7 @@ body {
     margin-top: 10px;
     padding-top: 10px;
     font-weight: bold;
-<<<<<<< HEAD
     color:#423f37;
-    padding: 0;
-=======
-    color:#423f37
->>>>>>> 8a94d65fd5ae7b364468f8c21dae6b75d99f1993
 }
 
 /*Éléments de la liste des parties windows, mac et linux*/
@@ -193,7 +173,7 @@ body {
 
 /*Texte des parties windows, mac et linux*/
 .windows > p, .mac > p, .linux > p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color:#423f37
 }
 
