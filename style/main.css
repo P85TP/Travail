@@ -65,7 +65,7 @@ body {
 .nav{
     position: absolute;
     top: 205px;
-    left: 50px;
+    left: 57px;
 }
 
 .nav > ul  {
@@ -157,16 +157,16 @@ body {
 
 /*Wrapper des partie windows, mac et linux */
 .windows, .mac, .linux {
-    display: inline-block;
     margin: 5px 20px;
     background-color: #ECEEF2;
-
+    height: 219px;
 }
 /*Image a gauche de windows, mac et linux */
 .imgwindows, .imgmac, .imglinux{
     display: block;
     padding-right: 10px;
     float: left;
+    margin: 0;
 }
 
 /*Texte des parties windows, mac et linux*/
@@ -180,7 +180,7 @@ body {
     text-decoration: none;
     position: relative;
     left: 340px;
-    bottom: 20px;
+    bottom: 13px;
 }
 
 /*Listes des parties windows, mac et linux*/
