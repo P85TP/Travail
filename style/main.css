@@ -373,7 +373,9 @@ input, select {
 
 /*Liste du pied de page*/
 ul.pdpbarre{
-    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 /*Éléments de la liste du pied de page*/
 .pdpbarre li{
