@@ -1,17 +1,22 @@
-* {
+/* * {
     padding:0;
     margin:0;
-}
+} */
 
 a {
     color:#406094;
-}
+} 
 
-body{
+/* body{
     width: 920px;
     height: auto;
     outline: solid black 1px;
     margin: 0 auto;
+} */
+
+body {
+    background-color: #EEE;
+    font-family: sans-serif;
 }
 
 
@@ -181,6 +186,111 @@ body{
     display: list-item;
     list-style: disc;
 }
+
+
+/* CSS des pages windows, linux et mac DEBUT CSS par Charles-Elie */
+
+.clear {
+    clear: both;
+}
+
+/* Sous navigation */
+
+.subnav ul {
+    display: block;
+    list-style: none;
+    width: 480px;
+    margin: 0 auto;
+    padding: 0; 
+    text-align: center;
+}
+
+.subnav ul li {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    padding-top: 18px;
+    text-align: center;
+    background-color: rgb(64, 96, 148);
+}
+
+.subnav ul li:hover {
+    background-color: #37569E;
+}
+
+.subnav ul li a {
+    display: block;
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Contenu */ 
+
+.contentwrap {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #6D7C9D;
+}
+
+.articles {
+    list-style:none;
+    padding: 0;
+}
+
+.articles > li {
+    display:block;
+}
+
+.articles li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #ECEEF2;
+}
+
+.articles li img {
+    float: left;
+    padding-right: 20px;
+}
+
+.articles li h2 {
+    color: #423f37;
+}
+
+.articles li h3 {
+    color: #423f37;
+}
+
+.articles li p {
+    font-size: large;
+    color: #57534a;
+}
+
+.articles > li > ul {
+    list-style: disc;
+}
+
+.articles > li > ul > li {
+    font-size: large;
+    color: #57534a;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.articles li table {
+    background-color: #C6CCDA;
+    margin: 0 auto;
+    width: 500px;
+    border: solid 1px #6D7C9D;
+}
+
+.articles li table tr td {
+    text-align: center;
+}
+
+/* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
 
 
 /*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
