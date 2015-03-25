@@ -33,7 +33,7 @@ body {
     width:960px;
     height: 260px;
     background-color: #6D7C9D;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*1)Banniere*/
@@ -92,9 +92,7 @@ body {
 
 /*Hover du bouton accueil*/
 .bacc:hover a{
-    visibility: hidden;
-    top: 800px;
-
+    color: transparent;
 }
 .bacc:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG");
@@ -103,7 +101,7 @@ body {
 
 /*Hover du bouton windos*/
 .bwin:hover a{
-    visibility: hidden;
+    color: transparent;
 }
 .bwin:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG");
@@ -112,7 +110,7 @@ body {
 
 /*Hover du bouton mac*/
 .bmac:hover a{
-    visibility: hidden;
+    color: transparent;
 }
 .bmac:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logomachover.png");
@@ -122,7 +120,7 @@ body {
 /*Hover du bouton linux*/
 
 .blin:hover a{
-    visibility: hidden;
+    color: transparent;
 }
 .blin:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG");
@@ -130,7 +128,7 @@ body {
 }
 /*Hover du bouton formulaire*/
 .bfor:hover a{
-    visibility: hidden;;
+    color: transparent;
 }
 .bfor:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoformulairehover.png");
@@ -139,7 +137,7 @@ body {
 
 /*Hover du bouton contact*/
 .bcon:hover a{
-    visibility: hidden;
+    color: transparent;
 }
 .bcon:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logocontacthover.png");
@@ -171,6 +169,23 @@ body {
     margin: 0;
 }
 
+/*Listes des parties windows, mac et linux*/
+.windows > ul, .mac > ul, .linux > ul {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    color:#423f37
+}
+
+/*Éléments de la liste des parties windows, mac et linux*/
+.windows > ul > li, .mac > ul > li, .linux > ul > li {
+    display: list-item;
+    list-style: disc;
+    margin-left: 235px;
+}
+
 /*Texte des parties windows, mac et linux*/
 .windows > p, .mac > p, .linux > p {
     margin-bottom: 0px;
@@ -181,28 +196,9 @@ body {
 .windows > a, .mac > a, .linux > a {
     text-decoration: none;
     position: relative;
-    left: 340px;
-    bottom: 13px;
+    left: 355px;
+    bottom: 15px;
 }
-
-/*Listes des parties windows, mac et linux*/
-.windows > ul, .mac > ul, .linux > ul {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    font-weight: bold;
-    color:#423f37
-    padding: 0;
-}
-
-/*Éléments de la liste des parties windows, mac et linux*/
-.windows > ul > li, .mac > ul > li, .linux > ul > li {
-    display: list-item;
-    list-style: disc;
-    margin-left: 223px;
-}
-
-
 /* CSS des pages windows, linux et mac DEBUT CSS par Charles-Elie */
 
 .clear {
@@ -411,6 +407,7 @@ input, select {
 .piedpage {
     background-color: rgb(64, 96, 148);
     width: 960px;
+    margin-top: 20px;
 }
 
 /*Liste du pied de page*/
@@ -418,6 +415,7 @@ ul.pdpbarre{
     display: inline-block;
     margin: 0;
     padding: 0;
+    width: 965px;
 }
 /*Éléments de la liste du pied de page*/
 .pdpbarre li{
@@ -425,7 +423,7 @@ ul.pdpbarre{
     font-family: 'Arial', Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
-    width: 227px;
+    width: 237px;
     height: 50px;
 }
 /*Survole des éléments de la liste du pied de page*/
