@@ -237,9 +237,23 @@ li.bacc, li.bwin, li.bmac, li.blin, li.bfor, li.bcon  {
 }
 /*DÉBUT DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
 
-.form{
+form{
     height: 600px;
 }
+#formin > label{
+    display: block;
+}
+#formin > input[type="radio"]{
+    display: inline-block;
+}
+
+#formin > input[type="text"]{
+    display: block;
+}
+.formgender{
+    display: inline;
+}
+
 
 /*FIN DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
 
