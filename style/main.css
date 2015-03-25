@@ -238,22 +238,59 @@ li.bacc, li.bwin, li.bmac, li.blin, li.bfor, li.bcon  {
 /*DÉBUT DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
 
 form{
-    height: 600px;
+    position: relative;
+    height: 500px;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-left: 38px;
+    margin-right: 37px;
+    margin-top: -11px;
+    background-color: #ECEEF2;
 }
-#formin > label{
+#formstreetnumber{
+    width: 30px;
+}
+#formzipcode{
+    width: 50px;
+}
+#labelformmail{
+    margin-top: 10px;
+}
+#formpassword{
     display: block;
 }
-#formin > input[type="radio"]{
-    display: inline-block;
-}
-
-#formin > input[type="text"]{
-    display: block;
-}
-.formgender{
+#formconditions{
     display: inline;
+    float: left;
+    margin-top: 10px;
+}
+#labelformconditions{
+    position: absolute;
+    display: inline;
+    width: 400px;
+    margin-left: 10px;
+    bottom: 128px;
+}
+#formsubmit{
+    position: absolute;
+    bottom: 85px;
+}
+.formin > label{
+    float: left;
+    clear: both;
+    width: 100px;
+}
+.formin > input[type="radio"]{
+    display: block;
 }
 
+.formin > input[type="text"]{
+    display: block;
+    background-color: rgba(81, 160, 229, 0.50);
+}
+input, select{
+    margin-bottom: 10px;
+}
 
 /*FIN DE LA PARTIE CONCERNAT LE CODE DE formulaireacc.html*/
 
