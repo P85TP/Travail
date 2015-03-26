@@ -409,8 +409,40 @@ input, select {
     margin-bottom: 10px;
     background-color: rgba(81, 160, 229, 0.50);
 }
-/*FIN DE LA PARTIE FORMULAIRE */
-/*----------------------------*/
+/*FIN DE LA PARTIE FORMULAIRE*/
+/*---------------------------*/
+/*DÉBUT DE LA PARTIE CONTACT */
+.conhead{
+    position: relative;
+    height: 60px;
+    background-color: #ECEEF2;
+}
+.conhead > p {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 175%;
+    margin: 0;
+}
+.conbody{
+    background-color: rgba(81, 160, 229, 0.50);
+}
+.conclient{
+    border: 1px solid black;
+    background-color: #ECEEF2;
+    list-style-type: none;
+    display: inline-block;
+}
+.contitle{
+    font-size: 160%;
+
+}
+.context{
+    color: rgba(81, 160, 229, 1);
+    font-size: 110%;
+}
+/* FIN DE LA PARTIE CONTACT  */
+/*---------------------------*/
 /*DÉBUT DE LA PARTIE BOUTIQUE*/
 
 #boutique > fieldset > legend {
