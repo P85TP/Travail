@@ -247,7 +247,7 @@ body {
 
 .articles li {
     margin-bottom: 50px;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     background-color: #ECEEF2;
 }
 
@@ -267,6 +267,20 @@ body {
 .articles li p {
     font-size: large;
     color: #57534a;
+}
+
+#refboutique   {
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #EEE;
+    width: 155px;
+    height: 27px;
+    margin-right: -20px;
+    margin-top: 6px;
+    padding-top: 7px;
+    background-color: #37569E;
 }
 
 .articles > li > ul {
