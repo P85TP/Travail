@@ -19,7 +19,6 @@ body {
 /*Wrapper de l'en-tête*/
 .header {
     position: relative;
-    width:960px;
     height: 260px;
     background-color: #6D7C9D;
     margin-bottom: 20px;
@@ -58,7 +57,7 @@ body {
 }
 
 .nav > ul  {
-   padding: 0px;
+   padding: 0;
 }
 
 .nav > ul > li  {
@@ -73,7 +72,7 @@ body {
 .nav > ul > li > a {
     display: inline-block;
     text-decoration: none;
-    margin-top: 13px;
+    line-height: 45px;
     text-align: center;
     width: 169px;
     color: white;
@@ -82,8 +81,6 @@ body {
 /*Hover du bouton accueil*/
 .bacc:hover a{
     color: transparent;
-}
-.bacc:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG");
     background-color: white;
 }
@@ -91,35 +88,26 @@ body {
 /*Hover du bouton windos*/
 .bwin:hover a{
     color: transparent;
-}
-.bwin:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG");
     background-color: white;
 }
 
 /*Hover du bouton mac*/
-.bmac:hover a{
+.bmac:hover a {
     color: transparent;
-}
-.bmac:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logomachover.png");
     background-color: white;
 }
-
 /*Hover du bouton linux*/
 
 .blin:hover a{
     color: transparent;
-}
-.blin:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG");
     background-color: white;
 }
 /*Hover du bouton formulaire*/
 .bfor:hover a{
     color: transparent;
-}
-.bfor:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoformulairehover.png");
     background-color: white;
 }
@@ -127,8 +115,6 @@ body {
 /*Hover du bouton contact*/
 .bcon:hover a{
     color: transparent;
-}
-.bcon:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logocontacthover.png");
     background-color: white;
 }
@@ -139,7 +125,6 @@ body {
 
 /*Wrapper du contenu du site*/
 .contenu {
-    position: relative;
     background-color: #6D7C9D;
     width: 960px;
 }
@@ -149,6 +134,7 @@ body {
     margin: 5px 20px;
     background-color: #ECEEF2;
     height: 219px;
+    padding-right: 10px;
 }
 /*Image a gauche de windows, mac et linux */
 .imgwindows, .imgmac, .imglinux{
@@ -160,14 +146,10 @@ body {
 
 /*Listes des parties windows, mac et linux*/
 .windows > ul, .mac > ul, .linux > ul {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin: 10px 0 0 10px;
     padding-top: 10px;
     font-weight: bold;
-    color:#423f37;
-    padding: 0;
-    color:#423f37;
+    color:#423f37;;
 }
 
 /*Éléments de la liste des parties windows, mac et linux*/
@@ -179,7 +161,7 @@ body {
 
 /*Texte des parties windows, mac et linux*/
 .windows > p, .mac > p, .linux > p {
-    margin-bottom: 0px;
+    margin: 0 0;
     color:#423f37
 }
 
@@ -231,7 +213,6 @@ body {
 .contentwrap {
     width: 960px;
     margin: 0 auto;
-    padding: 0;
     background-color: #6D7C9D;
 }
 
@@ -482,13 +463,11 @@ input, select {
 /*Wrapper du pied de page*/
 .piedpage {
     background-color: rgb(64, 96, 148);
-    width: 960px;
     margin-top: 20px;
 }
 
 /*Liste du pied de page*/
 ul.pdpbarre{
-    display: inline-block;
     margin: 0;
     padding: 0;
     width: 965px;
@@ -509,10 +488,9 @@ ul.pdpbarre{
 }
 /*Liens du pied de page*/
 .pdpbarre a {
-    position: relative;
+    line-height: 50px;
     color:white;
     text-decoration: none;
-    top: 15px;
 }
 /*Survole des liens du pied de page*/
 .pdpbarre li:hover a{
