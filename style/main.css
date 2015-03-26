@@ -396,7 +396,39 @@ input, select {
     background-color: rgba(81, 160, 229, 0.50);
 }
 /*FIN DE LA PARTIE FORMULAIRE */
-/*FIN DE LA PARTIE CONCERNANT LE CONTENU DU SITE*/
+/*----------------------------*/
+/*DÉBUT DE LA PARTIE BOUTIQUE*/
+
+#boutique > fieldset > legend {
+    background-color: #6D7C9D;
+    color: #423f37;
+    font-weight: bold;
+    }
+
+
+#boutique > fieldset {
+    margin: 10px;
+    background-color:#ECEEF2;
+}
+
+#boutique > fieldset > p {
+    float: left;
+    clear: both;
+    width: 300px;
+    display: inline;
+    margin: 0;
+    color: #423f37;
+}
+
+.selectan, .selectwin {
+    margin-bottom: 5px;
+}
+
+#boutique > fieldset > input {
+    float: right;
+    margin: 0;
+}
+
 /*----------------------------------------------*/
 /*DÉBUT DE LA PARTIE CONCERNANT LE PIED DE PAGE */
 
