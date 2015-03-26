@@ -174,7 +174,7 @@ body {
 .windows > ul > li, .mac > ul > li, .linux > ul > li {
     display: list-item;
     list-style: disc;
-    margin-left: 235px;
+    margin-left: 272px;
 }
 
 /*Texte des parties windows, mac et linux*/
@@ -188,7 +188,6 @@ body {
     text-decoration: none;
     position: relative;
     left: 355px;
-    bottom: 15px;
 }
 /* CSS des pages windows, linux et mac DEBUT CSS par Charles-Elie */
 
