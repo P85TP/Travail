@@ -1,3 +1,7 @@
+img {
+    color:#406094;          /*Nécéssaire pour IE*/
+    border: hidden;
+}
 
 a {
     color:#406094;
@@ -58,7 +62,7 @@ body {
 }
 
 .nav > ul  {
-   padding: 0px;
+   padding: 0;
 }
 
 .nav > ul > li  {
@@ -73,7 +77,7 @@ body {
 .nav > ul > li > a {
     display: inline-block;
     text-decoration: none;
-    margin-top: 13px;
+    line-height: 45px;
     text-align: center;
     width: 169px;
     color: white;
@@ -82,8 +86,6 @@ body {
 /*Hover du bouton accueil*/
 .bacc:hover a{
     color: transparent;
-}
-.bacc:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoaccueilhover.PNG");
     background-color: white;
 }
@@ -91,35 +93,26 @@ body {
 /*Hover du bouton windos*/
 .bwin:hover a{
     color: transparent;
-}
-.bwin:hover {
     background-image: url("http://jorelamthor.neocities.org/TP/image/logowindowshover.PNG");
     background-color: white;
 }
 
 /*Hover du bouton mac*/
-.bmac:hover a{
+.bmac:hover a {
     color: transparent;
-}
-.bmac:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logomachover.png");
     background-color: white;
 }
-
 /*Hover du bouton linux*/
 
 .blin:hover a{
     color: transparent;
-}
-.blin:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logolinuxhover.PNG");
     background-color: white;
 }
 /*Hover du bouton formulaire*/
 .bfor:hover a{
     color: transparent;
-}
-.bfor:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logoformulairehover.png");
     background-color: white;
 }
@@ -127,8 +120,6 @@ body {
 /*Hover du bouton contact*/
 .bcon:hover a{
     color: transparent;
-}
-.bcon:hover{
     background-image: url("http://jorelamthor.neocities.org/TP/image/logocontacthover.png");
     background-color: white;
 }
@@ -139,7 +130,6 @@ body {
 
 /*Wrapper du contenu du site*/
 .contenu {
-    position: relative;
     background-color: #6D7C9D;
     width: 960px;
 }
@@ -149,6 +139,7 @@ body {
     margin: 5px 20px;
     background-color: #ECEEF2;
     height: 219px;
+    padding-right: 10px;
 }
 /*Image a gauche de windows, mac et linux */
 .imgwindows, .imgmac, .imglinux{
@@ -160,14 +151,10 @@ body {
 
 /*Listes des parties windows, mac et linux*/
 .windows > ul, .mac > ul, .linux > ul {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin: 10px 0 0 10px;
     padding-top: 10px;
     font-weight: bold;
-    color:#423f37;
-    padding: 0;
-    color:#423f37;
+    color:#423f37;;
 }
 
 /*Éléments de la liste des parties windows, mac et linux*/
@@ -179,8 +166,9 @@ body {
 
 /*Texte des parties windows, mac et linux*/
 .windows > p, .mac > p, .linux > p {
-    margin-bottom: 0px;
-    color:#423f37
+    margin: 0 0;
+    color:#423f37;
+    height: 105px;
 }
 
 /*Lien des parties windows, mac et linux*/
@@ -231,7 +219,6 @@ body {
 .contentwrap {
     width: 960px;
     margin: 0 auto;
-    padding: 0;
     background-color: #6D7C9D;
 }
 
@@ -296,17 +283,18 @@ body {
 
 .articles li table {
     background-color: #C6CCDA;
-    border-collapse: collapse;
     margin: 0 auto;
     width: 500px;
     border: solid 1px #6D7C9D;
+    border-collapse: collapse;
 }
 
 .articles li table tr td {
     text-align: center;
-    border: solid 1px #6D7C9D;
     padding: 7px;
+    border: solid 1px #6D7C9D;
     font-family: verdana;
+    color: #222;
 }
 
 /* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
@@ -319,8 +307,8 @@ body {
     height: 500px;
     margin-left: 20px;
     margin-right: 20px;
-    padding-top: 80px;
-    padding-left: 60px;
+    padding-top: 30px;
+    padding-left: 45px;
     background-color: #ECEEF2;
 }
 
@@ -495,9 +483,13 @@ input, select {
 /*DÉBUT DE LA PARTIE BOUTIQUE*/
 
 #boutique > fieldset > legend {
-    background-color: #6D7C9D;
+    background-color: #ECEEF2;
     color: #423f37;
     font-weight: bold;
+    border-left: 2px solid #6C6C6C;
+    border-right: 2px solid #6C6C6C;
+    border-top: 2px solid #6C6C6C;
+    padding: 2px 2px 0 2px;
     }
 
 
@@ -517,13 +509,106 @@ input, select {
 
 .selectan, .selectwin {
     margin-bottom: 5px;
+    }
+
+.selectwin {
+    display: block;
 }
 
 #boutique > fieldset > input {
     float: right;
     margin: 0;
 }
+/*Le CSS suivant concerne les citations de la page*/
+.citations {
+    margin: 10px;
+    padding: 20px 0 10px 0;
+}
 
+.bq, .bq1, .bq2, .bq3, .bq4 {                   /*Tout les blackquotes commencent avec le même style...*/
+    padding-left: 16px;
+    height: 40px;
+    background: url("http://i47.tinypic.com/a9l0g3.png") top left no-repeat;
+    margin: 0 0 30px 0;
+    display:  inline-table;
+}
+
+.bq1 {                                          /*...mais, pour des raisons de style, certains doivent avoir des*/
+    margin: 0 90px 50px 110px;                  /*Margin ou des padding différents******************************/
+}
+
+.bq2 {
+    margin: 0 50px 30px 0;
+}
+
+.bq3 {
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.bq4 {
+    margin-bottom: 0;
+}
+
+.bq > p, .bq1 > p, .bq2 > p, .bq3 > p, .p3, .p5  {
+    width: 165px;                               /*Tout les paragraphe des blackquotes commencent avec le même style...*/
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    color:#ECEEF2;
+    margin: 0 0 0 10px;
+    background: url('http://i48.tinypic.com/eb1yrr.png') top right no-repeat;
+}
+
+.p1 {
+    padding:0 15px 0 15px;                      /*...mais, pour des raisons de style, certains doivent avoir des*/
+}                                               /*Margin, des padding, des width ou des font size différents*****/
+
+.bq1 > .p2 {
+    padding:0 35px 0 15px;
+}
+
+.bq2 > .p3 {
+    font-size: 30px;
+    width: 380px;
+    line-height: 31px;
+}
+.bq3 > .p4 {
+    padding: 0 30px;
+    font-size: 30px;
+    width: 380px;
+    line-height: 31px;
+}
+
+.bq4 > .p5 {
+    padding:0 30px;
+    font-size: 60px;
+    width: 840px;
+    line-height: 61px;
+   }
+.auteur, .auteur1, .auteur2, .auteur3 {         /*Tout les span d'auteurs commencent avec le même style...*/
+    display: inline-block;
+    padding-left: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: auto;
+}
+
+.auteur1 {                                      /*...mais, pour des raisons de style, certains doivent avoir des*/
+    padding-left: 40px;                         /*Padding ou des font size différents****************************/
+    font-size: 20px;
+}
+
+.auteur2 {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.auteur3 {
+    padding-left: 30px;
+    font-size: 40px;
+}
 /*----------------------------------------------*/
 /*DÉBUT DE LA PARTIE CONCERNANT LE PIED DE PAGE */
 
@@ -558,10 +643,9 @@ ul.pdpbarre{
 }
 /*Liens du pied de page*/
 .pdpbarre a {
-    position: relative;
+    line-height: 50px;
     color:white;
     text-decoration: none;
-    top: 15px;
 }
 /*Survole des liens du pied de page*/
 .pdpbarre li:hover a{
