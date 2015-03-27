@@ -263,7 +263,7 @@ div.windows > ul, div.mac > ul, div.linux > ul {
     color: #57534a;
 }
 
-#refboutique   {
+.refboutique   {
     float: right;
     text-decoration: none;
     font-weight: bold;
