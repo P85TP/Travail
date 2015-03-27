@@ -304,7 +304,7 @@ body {
 
 .form{
     position: relative;
-    height: 500px;
+    height: 510px;
     margin-left: 20px;
     margin-right: 20px;
     padding-top: 30px;
@@ -316,27 +316,29 @@ body {
     font-size: xx-large;
     color: black;
     position: absolute;
-    top: 50px;
-    right: 150px;
+    top: -465px;
+    right: 195px;
     z-index: 1;
+
 }
 
 .formp2{
     font-size: large;
     color: #505050;
     position: absolute;
-    top: 110px;
-    right: 150px;
+    top: -410px;
+    right: 195px;
     width: 212px;
     z-index: 1;
+
 }
 
 .formp3{
     font-size: xx-large;
     color: black;
-    position: absolute;
-    bottom: 230px;
-    right: 150px;
+    position:absolute;
+    bottom: 160px;
+    right: 200px;
     z-index: 1;
     width: 212px;
     padding-top: 15px;
@@ -344,33 +346,33 @@ body {
 }
 
 #formstreetnumber{
-width: 30px;
+    width: 30px;
 }
 
 #formzipcode{
-width: 50px;
+    width: 50px;
 }
 #labelformmail{
-margin-top: 10px;
+    margin-top: 10px;
 }
 #formpassword{
-display: block;
+    display: block;
 }
 #formconditions{
-display: inline;
-float: left;
-margin-top: 10px;
+    display: inline;
+    float: left;
+    margin-top: 10px;
 }
 #labelformconditions{
-position: absolute;
-display: inline;
-width: 400px;
-margin-left: 10px;
-bottom: 112px;
+    position: absolute;
+    display: inline;
+    width: 400px;
+    margin-left: 10px;
+    bottom: 112px;
 }
 #formsubmit{
-position: absolute;
-bottom: 65px;
+    position: absolute;
+    bottom: 65px;
 }
 .formin > label{
     float: left;
@@ -381,13 +383,16 @@ bottom: 65px;
     display: block;
 }
 .formin > input[type="text"]{
-display: block;
-background-color: rgba(81, 160, 229, 0.50);
+    display: block;
+    background-color: rgba(81, 160, 229, 0.50);
+}
+.formlogin{
+    position: relative;
 }
 .login{
     position: absolute;
-    bottom: 150px;
-    right: 90px;
+    bottom: 65px;
+    right: 150px;
 }
 .login > input[type="text"]{
     display: block;
