@@ -296,6 +296,7 @@ body {
 
 .articles li table {
     background-color: #C6CCDA;
+    border-collapse: collapse;
     margin: 0 auto;
     width: 500px;
     border: solid 1px #6D7C9D;
@@ -303,6 +304,9 @@ body {
 
 .articles li table tr td {
     text-align: center;
+    border: solid 1px #6D7C9D;
+    padding: 7px;
+    font-family: verdana;
 }
 
 /* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
