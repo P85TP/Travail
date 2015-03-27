@@ -1,6 +1,13 @@
+img {
+    color:#406094;          /*Nécéssaire pour IE*/
+    border: hidden;
+}
 
 a {
     color:#406094;
+    list-style: none;
+    display-list: none;
+    border: hidden;
 } 
 
 body {
@@ -162,7 +169,8 @@ body {
 /*Texte des parties windows, mac et linux*/
 .windows > p, .mac > p, .linux > p {
     margin: 0 0;
-    color:#423f37
+    color:#423f37;
+    height: 105px;
 }
 
 /*Lien des parties windows, mac et linux*/
@@ -458,6 +466,10 @@ input, select {
 
 .selectan, .selectwin {
     margin-bottom: 5px;
+    }
+
+.selectwin {
+    display: block;
 }
 
 #boutique > fieldset > input {
@@ -501,7 +513,7 @@ input, select {
     font-style: italic;
     font-size: 14px;
     line-height: 18px;
-    color:#423f37;
+    color:#ECEEF2;
     margin: 0 0 0 10px;
     background: url('http://i48.tinypic.com/eb1yrr.png') top right no-repeat;
 }
