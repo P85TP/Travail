@@ -280,10 +280,15 @@ body {
     margin: 0 auto;
     width: 500px;
     border: solid 1px #6D7C9D;
+    border-collapse: collapse;
 }
 
 .articles li table tr td {
     text-align: center;
+    padding: 7px;
+    border: solid 1px #6D7C9D;
+    font-family: verdana;
+    color: #222;
 }
 
 /* CSS des pages windows, linux et mac FIN CSS par Charles-Elie */
