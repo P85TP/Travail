@@ -151,7 +151,13 @@ body {
 }
 
 /*Listes des parties windows, mac et linux*/
-.windows > ul, .mac > ul, .linux > ul {
+div.windows > ul, div.mac > ul, div.linux > ul {
+    margin: 0 0 10px 0;
+    color:#423f37;
+}
+
+.windows > ul > li:first-child, .mac > ul > li:first-child, .linux > ul > li:first-child {
+    list-style: none;
     margin: 10px 0 0 10px;
     padding-top: 10px;
     font-weight: bold;
