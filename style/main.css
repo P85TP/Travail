@@ -149,6 +149,10 @@ body {
     margin: 0;
 }
 
+.imgwindows, .imglinux {
+    width: 249px;
+}
+
 /*Listes des parties windows, mac et linux*/
 .windows > ul, .mac > ul, .linux > ul {
     margin: 10px 0 0 10px;
