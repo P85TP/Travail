@@ -415,20 +415,21 @@ input, select {
 .conhead{
     position: relative;
     height: 60px;
-    background-color: rgba(81, 160, 229, 0.50);
 }
 .conhead > p {
     position: absolute;
-    top: 12px;
-    left: 10px;
-    font-size: 175%;
+    top: 25px;
+    left: 60px;
+    font-size: 200%;
     margin: 0;
+    border-bottom: 2px solid black;
 }
 .conbody{
     background-color: #6D7C9D;
     text-align: center;
     padding-right: 35px;
     height: 1250px;
+    margin-top: 20px;
 }
 .conclient{
 
@@ -442,16 +443,14 @@ input, select {
     width: 360px;
 }
 .conclientx{
-    border-right: 1px solid black;
-    border-left: 1px solid black;
     background-color: #ECEEF2;
     list-style-type: none;
     display: inline-block;
     text-align: center;
-    margin-left: auto;
+    margin-left: 30px;
     margin-right: auto;
     padding: 0;
-    width: 959px;
+    width: 835px;
 }
 .conadress{
     list-style-type: none;
@@ -462,6 +461,7 @@ input, select {
     position: relative;
     height: 80%;
     width: 80%;
+    margin-left: 20px;
     float: left;
 }
 .contitle{
@@ -477,14 +477,15 @@ input, select {
      color: black;
      font-size: 110%;
      margin-top: 160px;
-     margin-left: 730px;
+     margin-left: 745px;
  }
 .conadresstext2{
       position: absolute;
       color: black;
       font-size: 110%;
       margin-top: 510px;
-      margin-left: 730px;
+      margin-left: 745px;
+      padding-right: 20px;
   }
 /* FIN DE LA PARTIE CONTACT  */
 /*---------------------------*/
