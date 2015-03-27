@@ -39,13 +39,14 @@
     <div class="contenu">
 
     <form id="boutique" action="R_boutique.html" method="get">
+
         <fieldset>
             <legend>Windows</legend>
             <p>Choississez votre version de Windows :</p>
-            <select class="selectwin" name="selectwin">
-                <option value>Windows 8</option>
-                <option value>Windows 7</option>
-                <option value>Windows XP</option>
+            <select class="selectwin" name="selectwin">         <!--**************************************-->
+                <option value>Windows 8</option>                <!--Les menu select et les boutons submit*-->
+                <option value>Windows 7</option>                <!--Ne possède pas de label volontairement-->
+                <option value>Windows XP</option>               <!--**************************************-->
             </select>
             <p>Choississez la durée de votre licence :</p>
             <select class="selectan" name="selectwin">
@@ -53,7 +54,7 @@
                 <option value>2 an</option>
                 <option value>5 an</option>
             </select>
-            <input class="achat" type="submit" value="Acheter"/>
+            <input id="achatw" class="achat" type="submit" value="Acheter"/>
         </fieldset>
 
         <fieldset>
@@ -89,8 +90,40 @@
             </select>
             <input class="achat" type="submit" value="Acheter"/>
         </fieldset>
-    </div>
+        <!--Partie citations -->
+        <div class="citations">
+            <blockquote class="bq" cite="Bill Gates">
+                <p>Génial ! Totalement renversant</p>               <!--J'ai préféré utiliser des span même si***-->
+                <span class="auteur">- Louis XIV</span>             <!--Cela est déconseillé, afin d'éviter de***-->
+            </blockquote>                                           <!--Surcharger le CSS ( deja plutôt complexe)-->
+                                                                    <!--davantage********************************-->
+            <blockquote class="bq1" cite="Warren Buffet">
+                <p class="p2">Investissez dans ce site tout de suite !</p>
+                <span class="auteur">- Warren Buffet</span>
+            </blockquote>
+
+            <blockquote class="bq" cite="Rolling Stones Magazine">
+                <p class="p1">Les meileurs licences pour vos OS.</p>
+                <span class="auteur">- The Rolling Stones Magazine</span>
+            </blockquote>
+
+            <blockquote class="bq2" cite="Albert Einstein">
+                <p class="p3">Ces logiciels ont été d'un grand secours pour mes travaux.</p>
+                <span class="auteur2">- Albert Einstein</span>
+            </blockquote>
+
+            <blockquote class="bq3" cite="Gengis Khan">
+                <p class="p4">C'est vraiment fun de jouer avec le photobooth de mac, LOL !</p>
+                <span class="auteur1">- Gengis Khan</span>
+            </blockquote>
+
+            <blockquote class="bq4" cite="Neil Armstrong">
+                <p class="p5">C'est un petit font-size pour le web, mais un grand pour la page boutique.</p>
+                <span class="auteur3">- Neil Armstrong</span>
+            </blockquote>
+        </div>
     </form>
+    </div>
 
     <div id="pdp" class="piedpage">
         <ul class="pdpbarre">
